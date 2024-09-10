@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einkaufsliste</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Einkaufsliste</h1>
+    <form id="itemForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+        <label for="menge">Menge:</label>
+        <input type="number" id="menge" required><br>
+        <label for="laden">Laden:</label>
+        <input type="text" id="laden" required><br>
+        <label for="gekauft">Gekauft:</label>
+        <input type="checkbox" id="gekauft"><br><br>
+        <button type="submit">Hinzufügen</button>
+    </form>
+
+    <h2>Liste der Artikel</h2>
+    <ul id="itemList"></ul>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
